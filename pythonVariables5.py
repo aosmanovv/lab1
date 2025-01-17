@@ -25,11 +25,11 @@ print("Python is " + x)
 ###################################
 x = "awesome"
 
-def myfunc():
+def myfunc4():
     global x
     x = "fantastic"
 
-myfunc()
+myfunc4()
 
 print("Python is " + x)
 
