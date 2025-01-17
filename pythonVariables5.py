@@ -1,0 +1,35 @@
+x = "awesome"
+print(x)
+print("Python is " + x)
+
+
+
+
+###################################
+def myfunc2():
+    x = "fantastic"
+    print("Python is " + x)
+
+myfunc2()
+
+print("Python is " + x)
+###################################
+def myfunc3():
+    global x
+    x = "fantastic"
+
+myfunc3()
+
+print("Python is " + x)
+
+###################################
+x = "awesome"
+
+def myfunc():
+    global x
+    x = "fantastic"
+
+myfunc()
+
+print("Python is " + x)
+
